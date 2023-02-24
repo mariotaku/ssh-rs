@@ -202,7 +202,6 @@ where
             .await
     }
 
-    #[cfg(unix)]
     pub async fn userauth_pubkey_memory(
         &self,
         username: &str,
